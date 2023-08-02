@@ -1,0 +1,30 @@
+.shelf-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  text-align: left;
+}
+.book-cover {
+  width: 200px;
+  height: 200px;
+}
+
+.book-item {
+  margin: 1.5rem;
+  padding: 0;
+  width: 200px;
+  border: 1px solid;
+}
+.tick {
+  content: "\2713";
+  background-color: aquamarine;
+}
+#category {
+  background-color: bisque;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  width: 20px;
+  margin: 0.5rem;
+}
